@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>eMath | Matrix</title>
+      <link rel="stylesheet" href="./css/style.css" />
+      <script defer src="./js/app.js"></script>
+   </head>
+   <body>
+      <main>
+         <section class="matrix">
+            <div class="matSize">
+               <input type="number" id="row" placeholder="Row" />
+               <input type="number" id="col" placeholder="Column" />
+               <button id="create">Create Matrix</button>
+            </div>
+
+            <div class="mat hidden" id="mat0">
+               <div id="mat"></div>
+               <div id="mat2"></div>
+            </div>
+
+            <div class="buttons">
+               <button id="add" class="hidden">Add Matrix</button>
+               <button id="subtract" class="hidden">Subtract Matrix</button>
+               <button id="multiply" class="hidden">Multiply Matrix</button>
+               <button id="multiplyS" class="hidden">Multiply</button>
+               <button id="inverse" class="hidden">Inverse</button>
+               <button id="determinant" class="hidden">Determinant</button>
+               <button id="transpose" class="hidden">Transpose Matrix</button>
+               <button id="adjoint" class="hidden">Adjoint</button>
+               <button id="cofactor" class="hidden hd">Cofactor</button>
+               <button id="square" class="hidden">Square</button>
+               <button id="clear" class="hidden">Clear</button>
+            </div>
+         </section>
+      </main>
+
+      <footer>
+         <p>&copy; 2024 Erzen Krasniqi</p>
+      </footer>
+   </body>
+</html>

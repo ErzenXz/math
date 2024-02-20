@@ -512,8 +512,8 @@ function createMatrix(row, col) {
       return;
    }
 
-   if (row > 10 || col > 10) {
-      alert("Row and Column value should be less than 10");
+   if (row > 100 || col > 100) {
+      alert("Row and Column value should be less than 100");
       return;
    }
 
